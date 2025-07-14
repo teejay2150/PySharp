@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net10.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>PySharp.Core</PackageId>
+    <Version>0.1.0-alpha</Version>
+    <Authors>Your Name</Authors>
+    <Description>Python syntax sugar that compiles to optimized C# - Core transformation engine</Description>
+    <PackageProjectUrl>https://github.com/teejay2150@gmail.com/PySharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/teejay2150@gmail.com/PySharp</RepositoryUrl>
+    <PackageTags>python;csharp;syntax;performance;compiler</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.4" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.8.0" PrivateAssets="all" />
+  </ItemGroup>
+
+</Project>
